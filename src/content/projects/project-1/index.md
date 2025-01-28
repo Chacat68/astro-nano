@@ -1,7 +1,7 @@
 ---
-title: "《曹操去哪儿》"
-description: "《曹操去哪儿》是一款卡牌休闲手游，由亚洲乐坛著名音乐人林俊杰同名歌曲《曹操》独家正版授权，戏依托经典名著《三国演义》，构建高自由度的开放式剧情体验。"
-date: "Mar 18 2014"
+title: "《铠甲勇士OL》"
+description: "迷宫冒险RPG类页游，基于同名漫话改编。"
+date: "Mar 18 2010"
 demoURL: "https://astro-sphere-demo.vercel.app"
 repoURL: "https://github.com/markhorn-dev/astro-sphere"
 ---

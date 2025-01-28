@@ -1,7 +1,7 @@
 ---
-title: "Astro Nano"
-description: "Minimal portfolio and blog build with astro and no frameworks."
-date: "Mar 26 2024"
+title: "《曹操去哪儿》"
+description: "卡牌休闲手游，林俊杰《曹操》音乐授权，背景故事基于《三国演义》改编。"
+date: "Mar 26 2014"
 demoURL: "https://astro-nano-demo.vercel.app"
 repoURL: "https://github.com/markhorn-dev/astro-nano"
 ---
