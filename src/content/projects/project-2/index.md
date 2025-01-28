@@ -1,7 +1,7 @@
 ---
-title: "Astro Nano"
-description: "Minimal portfolio and blog build with astro and no frameworks."
-date: "Mar 26 2024"
+title: "《战东周》"
+description: "《战东周》是一款基于回合制策略的RPG游戏，上线到QQ空间等多个社交平台。"
+date: "Mar 26 2012"
 demoURL: "https://astro-nano-demo.vercel.app"
 repoURL: "https://github.com/markhorn-dev/astro-nano"
 ---
