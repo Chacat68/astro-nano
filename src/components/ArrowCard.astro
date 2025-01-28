@@ -1,22 +1,12 @@
 ---
 import type { CollectionEntry } from "astro:content";
 
+// 删除其中一个 Props 定义，只保留 type Props
 type Props = {
   entry: CollectionEntry<"blog"> | CollectionEntry<"projects">;
-}
+};
 
-interface Props {
-  entry: {
-    id: string;
-    slug: string;
-    data: {
-      title: string;
-      description: string;
-      date?: Date;
-      draft?: boolean;
-    };
-  };
-}
+// 删除重复的 interface Props 定义
 
 const { entry } = Astro.props;
 ---
