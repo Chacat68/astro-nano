@@ -7,41 +7,16 @@ import Link from "@components/Link.astro";
 import { dateRange } from "@lib/utils";
 import { SITE, HOME, SOCIALS } from "@consts";
 
-// 添加类型定义
-interface BlogEntry {
-  id: string;
-  slug: string;
-  collection: "blog";
-  data: {
-    title: string;
-    description: string;
-    date: Date;
-    draft?: boolean;
-  };
-}
-
-interface ProjectEntry {
-  id: string;
-  slug: string;
-  collection: "project";
-  data: {
-    title: string;
-    description: string;
-    date: Date;
-    draft?: boolean;
-  };
-}
-
 // 修改获取集合的代码
 const blog = (await getCollection("blog"))
   .filter(post => !post.data.draft)
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
-  .slice(0, SITE.NUM_POSTS_ON_HOMEPAGE);
+  .slice(0,SITE.NUM_POSTS_ON_HOMEPAGE);
 
-const projects = (await getCollection("project"))
+const projects = (await getCollection("projects"))
   .filter(project => !project.data.draft)
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
-  .slice(0, SITE.NUM_PROJECTS_ON_HOMEPAGE) as ProjectEntry[];
+  .slice(0,SITE.NUM_PROJECTS_ON_HOMEPAGE);
 
 const allwork = (await getCollection("work"))
   .sort((a, b) => new Date(b.data.dateStart).valueOf() - new Date(a.data.dateStart).valueOf())
@@ -138,7 +113,7 @@ const work = await Promise.all(
           // 在项目列表渲染部分
           {projects.map(project => (
             <li>
-              <ArrowCard entry={project as unknown as BlogEntry} />
+              <ArrowCard entry={project} />
             </li>
           ))}
         </ul>
