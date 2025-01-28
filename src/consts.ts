@@ -4,7 +4,7 @@ import type { Site, Metadata, Socials } from "@types";
 // 网站基本配置
 export const SITE: Site = {
   NAME: "CHACAT-Work",                // 网站名称
-  EMAIL: "cainefox@gmail.com",   // 联系邮箱
+  EMAIL: "chawf56@outlook.com",   // 联系邮箱
   NUM_POSTS_ON_HOMEPAGE: 3,          // 首页显示的博客文章数量
   NUM_WORKS_ON_HOMEPAGE: 2,          // 首页显示的工作经历数量
   NUM_PROJECTS_ON_HOMEPAGE: 3,       // 首页显示的项目数量
