@@ -1,7 +1,7 @@
 ---
 title: "《乱轰三国志》"
 description: "基于cocos引擎的2D卡牌策略游戏，基于《三国志》背景进行设计"
-date: "Mar 26 2024"
+date: "Mar 26 2019"
 demoURL: "https://astro-nano-demo.vercel.app"
 repoURL: "https://github.com/markhorn-dev/astro-nano"
 ---

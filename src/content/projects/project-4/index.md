@@ -1,7 +1,7 @@
 ---
 title: "《长城》"
 description: "MMORPG手游，张艺谋导演授权同名项目。"
-date: "Mar 26 2024"
+date: "Mar 26 2017"
 demoURL: "https://astro-nano-demo.vercel.app"
 repoURL: "https://github.com/markhorn-dev/astro-nano"
 ---

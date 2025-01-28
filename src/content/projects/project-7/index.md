@@ -1,7 +1,7 @@
 ---
-title: "Astro Nano"
-description: "Minimal portfolio and blog build with astro and no frameworks."
-date: "Mar 26 2024"
+title: "《末日进化》"
+description: "COK like SLG游戏，末日题材"
+date: "Mar 26 2022"
 demoURL: "https://astro-nano-demo.vercel.app"
 repoURL: "https://github.com/markhorn-dev/astro-nano"
 ---
