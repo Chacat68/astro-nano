@@ -1,6 +1,6 @@
 ---
-title: "Getting started"
-description: "Hit the ground running."
+title: "我的职业经历"
+description: "我的从业经验介绍"
 date: "Mar 22 2024"
 ---
 
