@@ -1,6 +1,6 @@
 ---
 title: "《铠甲勇士OL》"
-description: "迷宫冒险RPG类页游，基于同名漫话改编。"
+description: "迷宫冒险RPG类页游，由奥飞娱乐旗下的铠甲勇士IP授权开发。"
 date: "Mar 18 2010"
 demoURL: "https://astro-sphere-demo.vercel.app"
 repoURL: "https://github.com/markhorn-dev/astro-sphere"
