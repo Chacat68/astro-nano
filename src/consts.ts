@@ -41,8 +41,8 @@ export const SOCIALS: Socials = [
     NAME: "github",                  // GitHub 代码仓库
     HREF: "https://github.com/Chacat68"
   },
-  // { 
-  //   NAME: "linkedin",                // LinkedIn 职业社交平台
-  //   HREF: "https://www.linkedin.com/in/markhorn-dev",
-  // }
+  { 
+    NAME: "blog",                // 我的博客
+    HREF: "https://www.chawfoo.com/",
+  }
 ];
