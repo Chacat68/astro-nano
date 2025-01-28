@@ -12,12 +12,12 @@ const blog = (await getCollection("blog"))
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
   .slice(0,SITE.NUM_POSTS_ON_HOMEPAGE);
 
-const projects = (await getCollection("projects"))
+const projects = (await getCollection("项目"))
   .filter(project => !project.data.draft)
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
   .slice(0,SITE.NUM_PROJECTS_ON_HOMEPAGE);
 
-const allwork = (await getCollection("work"))
+const allwork = (await getCollection("工作"))
   .sort((a, b) => new Date(b.data.dateStart).valueOf() - new Date(a.data.dateStart).valueOf())
   .slice(0,SITE.NUM_WORKS_ON_HOMEPAGE);
 
