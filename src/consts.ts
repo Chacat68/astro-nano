@@ -1,44 +1,48 @@
+// 从 @types 导入类型定义
 import type { Site, Metadata, Socials } from "@types";
 
+// 网站基本配置
 export const SITE: Site = {
-  NAME: "Astro Nano",
-  EMAIL: "markhorn.dev@gmail.com",
-  NUM_POSTS_ON_HOMEPAGE: 3,
-  NUM_WORKS_ON_HOMEPAGE: 2,
-  NUM_PROJECTS_ON_HOMEPAGE: 3,
+  NAME: "Astro Nano",                // 网站名称
+  EMAIL: "markhorn.dev@gmail.com",   // 联系邮箱
+  NUM_POSTS_ON_HOMEPAGE: 3,          // 首页显示的博客文章数量
+  NUM_WORKS_ON_HOMEPAGE: 2,          // 首页显示的工作经历数量
+  NUM_PROJECTS_ON_HOMEPAGE: 3,       // 首页显示的项目数量
 };
 
+// 首页元数据
 export const HOME: Metadata = {
-  TITLE: "Home",
-  DESCRIPTION: "Astro Nano is a minimal and lightweight blog and portfolio.",
+  TITLE: "首页",
+  DESCRIPTION: "CHACAT 工作经历展示。",
 };
 
 export const BLOG: Metadata = {
   TITLE: "Blog",
-  DESCRIPTION: "A collection of articles on topics I am passionate about.",
+  DESCRIPTION: "分享我热衷的各类主题文章集合。",
 };
 
 export const WORK: Metadata = {
-  TITLE: "Work",
-  DESCRIPTION: "Where I have worked and what I have done.",
+  TITLE: "工作",
+  DESCRIPTION: "我的工作经历和成就展示。",
 };
 
 export const PROJECTS: Metadata = {
-  TITLE: "Projects",
-  DESCRIPTION: "A collection of my projects, with links to repositories and demos.",
+  TITLE: "项目",
+  DESCRIPTION: "我的项目集合，包含代码仓库和演示链接。",
 };
 
+// 社交媒体链接配置
 export const SOCIALS: Socials = [
   { 
-    NAME: "twitter-x",
-    HREF: "https://twitter.com/markhorn_dev",
+    NAME: "twitter-x",               // Twitter/X 社交平台
+    HREF: "https://x.com/Chacat68",
   },
   { 
-    NAME: "github",
-    HREF: "https://github.com/markhorn-dev"
+    NAME: "github",                  // GitHub 代码仓库
+    HREF: "https://github.com/Chacat68"
   },
-  { 
-    NAME: "linkedin",
-    HREF: "https://www.linkedin.com/in/markhorn-dev",
-  }
+  // { 
+  //   NAME: "linkedin",                // LinkedIn 职业社交平台
+  //   HREF: "https://www.linkedin.com/in/markhorn-dev",
+  // }
 ];
