@@ -1,6 +1,6 @@
 ---
 title: "《末日进化》"
-description: "COK like SLG游戏，末日题材"
+description: "末日废土题材的SLG手游，COK like核心玩法模型。"
 date: "Mar 26 2022"
 demoURL: "https://astro-nano-demo.vercel.app"
 repoURL: "https://github.com/markhorn-dev/astro-nano"
